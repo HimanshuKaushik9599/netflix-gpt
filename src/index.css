@@ -1,13 +1,31 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* .logo{
+    width:150px;
+    height: 70px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.div-header{
+    background: "#333333" !important;
+    position: absolute;
+
 }
+.login-form{
+    position: absolute;
+    top:150px;
+    left:550px;
+    width: 400px;
+    height:600px;
+    border-radius: 7px;
+
+}
+.form-input{
+    width: 300px;
+    margin-left: 50px;
+}
+.form-heading{
+    color:white;
+    margin-left: 40px;
+    margin-top:40px;
+} */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
