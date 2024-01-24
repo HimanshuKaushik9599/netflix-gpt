@@ -1,6 +1,16 @@
 # netflix GPT 
-create React App 
-Header
+-create React App 
+-Header
+-Routing of app
+-Login form 
+-Sign Up form 
+-validation of form 
+-what is useref hook 
+-firbase setup 
+-Deploying our app  by  firebase
+-create sig up user account in firebase  
+-implement sign in user api 
+-create Redux Store with userSlice 
 
 
 
