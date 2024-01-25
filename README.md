@@ -2,6 +2,7 @@
 -create React App 
 -Header
 -Routing of app
+-Build Secondary component 
 -Login form 
 -Sign Up form 
 -validation of form 
@@ -23,6 +24,10 @@
 -Fetch data for trailer video 
 -update store with Trailer video data 
 -Embedded  the youtube video  and make it autoplay 
+-Build Secondary component 
+-Build Movie List 
+-Build Movie card 
+-TMDB image cdn 
 
 
 
