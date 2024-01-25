@@ -11,6 +11,18 @@
 -create sig up user account in firebase  
 -implement sign in user api 
 -create Redux Store with userSlice 
+-implemented sign out 
+-BugFix :If the user is not login then it can not abl eto redirect to browse component 
+-unsubscribed to the onAuthStateChanged  callback function
+-Add hardcoded values in constant in constant file  
+-register for TMDB api and get access token
+-get data from TMDB by making api call 
+-custom hool for now playing movies
+-create movie slice  
+-Update sore with moving data
+-Fetch data for trailer video 
+-update store with Trailer video data 
+-Embedded  the youtube video  and make it autoplay 
 
 
 
