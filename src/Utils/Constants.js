@@ -29,3 +29,6 @@ export const Supported_Languages = [
   },
   { identifier: "spanish", name: "Spanish" },
 ];
+
+
+export const OpenAI_key="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";

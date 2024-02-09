@@ -4,12 +4,13 @@ import { useDispatch, useSelector } from "react-redux";
 import { addTrailerVideo } from "../Utils/movieSlice";
 import useMovieTrailer from "../hooks/useMovieTrailer";
 
-const VideoBackground = ({ movieId }) => {
+const VideoBackground = ({ id }) => {
   const trailerVideo = useSelector((store) => store.movies?.trailerVideo);
-  useMovieTrailer(movieId);
+  // console.log(movieId);
+  useMovieTrailer(id);
   
   return (
-    <div className="bg-gradient-to-r from-yellow">
+    <div className=" bg-gradient-to-r from-black">
       <iframe
       className="w-full	 aspect-video  "
       src={"https://www.youtube.com/embed/" + trailerVideo?.key + "?si=35VTsJ03x2Y7Ham6&autoplay=1&mute=1"}

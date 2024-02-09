@@ -3,13 +3,13 @@ import { API_Options } from "../Utils/Constants";
 import { useEffect } from "react";
 import { addTrailerVideo } from "../Utils/movieSlice";
 
-const useMovieTrailer=()=>{
+const useMovieTrailer=(id)=>{
 
     const dispatch = useDispatch();
 
   const getMovieVideo = async () => {
     const data = await fetch(
-      "https://api.themoviedb.org/3/movie/976573/videos",
+      `https://api.themoviedb.org/3/movie/${id}/videos`, // Make the URL dynamic by including the id parameter
       API_Options
     );
     const json = await data.json();

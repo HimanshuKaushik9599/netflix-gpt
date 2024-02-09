@@ -36,3 +36,7 @@
 .movie-card::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
 }
+.imageSize{
+    height:540px;
+    width: 700px;
+}
