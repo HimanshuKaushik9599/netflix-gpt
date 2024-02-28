@@ -20,7 +20,7 @@ const MainContainer = () => {
   // console.log(id);
 
   return (
-    <div className=" pt-[30%] bg-black md:pt-0    bg-gradient-to-r from-black">
+    <div className=" pt-[30%] bg-black md:pt-0    ">
       <VideoTitle
         title={original_title}
         overview={overview}
